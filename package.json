@@ -1,0 +1,36 @@
+{
+  "name": "express-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "nodemon -L",
+    "lint": "tslint --exclude **/*.d.ts --project . --fix 'src/**/*.ts' 'test/**/*.ts'",
+    "tsc": "tsc",
+    "ts-node": "ts-node",
+    "sequelize-cli": "sequelize-cli"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "graphql": "^15.3.0",
+    "sequelize": "^6.3.3",
+    "sqlite3": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.7",
+    "@types/node": "^14.0.22",
+    "@types/sequelize": "^4.28.9",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.0.5",
+    "sequelize-cli": "^6.2.0",
+    "ts-node": "^8.10.2",
+    "tslint": "^6.1.2",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-config-standard": "^9.0.0",
+    "tslint-plugin-prettier": "^2.3.0",
+    "typescript": "^3.9.6"
+  }
+}
